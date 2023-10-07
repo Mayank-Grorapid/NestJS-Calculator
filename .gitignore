@@ -2,6 +2,16 @@
 /dist
 /node_modules
 
+
+# Ignore Dockerfiles
+Dockerfile
+Dockerfile.*
+
+# Ignore Docker Compose YAML files
+docker-compose.yml
+docker-compose.yaml
+
+
 .env
 # Logs
 logs
